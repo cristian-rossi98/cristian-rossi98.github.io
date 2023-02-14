@@ -1,0 +1,19 @@
+body {
+    background-color: #C6DDF0;
+}
+
+#my-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description-list {
+    font-style: italic;
+}
+
+#skills-title {
+    font-size: 2em;
+}
+
+.skills-list {
+    font-size: 20px;
+}
