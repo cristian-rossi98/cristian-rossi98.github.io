@@ -29,6 +29,14 @@ header a {
     margin: auto;
 }
 
+.header-container a {
+    right: 300px;
+}
+
+/* .header-container div {
+    width: 50%;
+} */
+
 body {
     background-color: #C6DDF0;
 }
