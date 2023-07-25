@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Chivo:wght@100;200;300;400;500;600;700;800;900&family=Kalam:wght@700&family=Pragati+Narrow:wght@700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Chivo', Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --blue-1: #011526;
+  --blue-2: #023059;
+  --blue-3: #035AA6;
+  --blue-4: #0367A6;
+  --blue-5: #91BBF2;
+}
+
+body {
+  background-color: var(--blue-1);
+  color: white;
+
+  margin: auto;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0 20px;
+  height: 50vh;
+  background-image: radial-gradient(circle , var(--blue-2), var(--blue-1));
+}
+
+#intro .name {
+  font-size: .8em;
+  text-transform: uppercase;
+  color: var(--blue-5);
+
+  margin-bottom: 5px;
+}
+
+#intro .office-socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+#intro .office {
+  font-size: 2.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: .8em;
+
+}
+
+#intro .social {
+  display: flex;
+}
+
+#intro a {
+  display: flex;
+  padding: 0 5px;
+}
+
+#intro img {
+  width: 15px;
+  fill: white;
+}
+
+#intro img {
+  width: 15px;
+  fill: white;
+}
+
+#intro .linkedin {
+  width: 17px;
+}
+
+#intro .developer {
+  text-align: end;
+}
+
+#intro .description {
+  font-size: .55em;
+  font-weight: 100;
+  text-align: end;
+  text-transform: uppercase;
+  /* color: var(--blue-5); */
+  /* background-color: var(--blue-3); */
+
+  margin-top: 5px;
+}
