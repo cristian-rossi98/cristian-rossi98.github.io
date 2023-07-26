@@ -264,6 +264,21 @@ section {
   font-size: .8em;
 }
 
+#contacts .social {
+  display: flex;
+  margin-top: 25px;
+}
+
+#contacts a {
+  display: flex;
+  padding: 0 5px;
+}
+
+#contacts a:hover {
+  transition: all .3s;
+  scale: 120%;
+}
+
 footer {
   background-color: var(--blue-5);
   color: var(--blue-2);
