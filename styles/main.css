@@ -28,7 +28,6 @@ body {
 }
 
 section {
-  /* height: 100vh; */
 }
 
 /* ********** Intro Section ********** */
@@ -83,12 +82,6 @@ section {
 
 #intro img {
   width: 15px;
-  fill: white;
-}
-
-#intro img {
-  width: 15px;
-  fill: white;
 }
 
 #intro .linkedin {
@@ -153,13 +146,10 @@ section {
   color: var(--blue-4);
 }
 
-/* #about ol {
-  column-count: 2; 
-} */
-
 #about ol > li {
   display: inline-block;
   margin: 5px 0;
+  width: 100%;
 }
 
 #about .date {
@@ -185,23 +175,32 @@ section {
 }
 
 #about .arrow {
-  margin-left: 50px;
+  margin-left: 25px;
   font-size: 1em;
   color: var(--blue-5);
 }
 
 /* ********** Projects Section ********** */
 #projects {
-  height: 100vh;
+  /* height: 100vh; */
   background-color: var(--blue-1);
+}
 
+#projects .content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+#projects .project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #projects h1 {
-  /* text-align: center; */
+  text-align: center;
   text-transform: uppercase;
   font-size: 1.5em;
   padding: 30px 0;
@@ -230,7 +229,7 @@ section {
 
 /* ********** Contacts Section ********** */
 #contacts {
-  height: 30vh;
+  /* height: 25vh; */
   background-color: var(--blue-5);
 
   display: flex;
