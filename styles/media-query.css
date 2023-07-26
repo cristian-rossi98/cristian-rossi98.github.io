@@ -1,0 +1,21 @@
+/* 
+
+@media (min-width: 480px) {
+  #intro {
+    padding: 0 20%;
+  }
+}
+
+
+@media (min-width: 687px) {
+  #intro {
+    padding: 0 28%;
+  }
+}
+
+
+@media (min-width: 935px) {
+  #intro {
+    padding: 0 40%;
+  }
+} */

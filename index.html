@@ -3,37 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/media-query.css">
+    <link rel="stylesheet" href="styles/progress-bar.css">
     <title>Cristian Rossi</title>
   </head>
 
   <body>
     <main>
       <section id="intro">
-        <p class="name">Oi 👋🏻 eu sou o Cristian</p>
-        <div class="office-socials">
-          <h1 class="office">Frontend</h1>
-          <div class="social">
-            <a href="#" target="_blank"><img src="img/linkedin.svg" alt="linkedin" class="linkedin"></a>
-            <a href="#" target="_blank"><img src="img/github.svg" alt="github"></a>
-            <a href="#" target="_blank"><img src="img/cv.svg" alt="cv"></a>
+        <div class="container">
+          <p class="name">Oi 👋🏻 eu sou o Cristian</p>
+          <div class="office-socials">
+            <h1 class="office">Frontend</h1>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/cristian-rossi-ccosta/" target="_blank"><img src="img/linkedin.svg" alt="linkedin" class="linkedin"></a>
+              <a href="https://github.com/cristian-rossi98" target="_blank"><img src="img/github.svg" alt="github"></a>
+              <a href="#" target="_blank"><img src="img/cv.svg" alt="cv"></a>
+            </div>
           </div>
+          <h1 class="office"><p class="developer">Developer</p></h1>
+          <p class="description" id="age-count"></p>
         </div>
-        <h1 class="office"><p class="developer">Developer</p></h1>
-        <p class="description" id="">Tenho 24 anos sou desenvolvedor com <br> mais de <strong>2 anos</strong> de experiência.</p>
       </section>
       <section id="about">
+        <h1>Sobre Mim</h1>
+        <h2>Meu nome é <strong>Cristian Rossi Corrêa da Costa</strong></h2>
+        <p>Sou Desenvolvedor Front-End formado em 2020 em <strong>Sistemas de Informação</strong> pelo Centro Universitário Eurípides de Marília <strong>(UNIVEM)</strong>. Busco uma posição como <strong>Desenvolvedor Web</strong>, onde possa aplicar minhas habilidades em programação e meu conhecimento em desenvolvimento de websites para <strong>criar soluções eficientes</strong> e aprender continuamente e enfrentar desafios para impulsionar o sucesso da empresa no ambiente digital.</p>
+        <h3>Habilidades</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Vue</li>
+        </ul>
+        <h3>Experiência e Educação</h3>
+        <ol>
+          <li>
+            <p class="date">2021 - 2023</p>
+            <p class="title">Pausa na Carreira</p>
+            <p class="description">Alcance de objetivos pessoais</p>
+            <p class="arrow">↑</p>
+          </li>
+          <li>
+            <p class="date">2020 - 2021</p>
+            <p class="title">CYGNI Agro Ciência - Grupo Orion</p>
+            <p class="office">CLT</p>
+            <p class="description">Desenvolvimento Web com Vue.js e Tailwind</p>
+            <p class="arrow">↑</p>
+          </li>
+          <li>
+            <p class="date">2020 - 2020</p>
+            <p class="title">CIAg - Grupo Jacto</p>
+            <p class="office">Estágio</p>
+            <p class="description">Experiência com desenvolvimento de sistemas web (Angular e JHipster), raciocínio lógico, back-end com SpringBoot (Java e Kotlin), banco de dados H2, controle de versão com Git e gerenciamento de repositório no GitLab.</p>
+            <p class="arrow">↑</p>
+          </li>
+          <li>
+            <p class="date">2019 - 2019</p>
+            <p class="title">Consiga Cred</p>
+            <p class="office">Estágio</p>
+            <p class="description">Experiência com hardware, software e redes. Configuração e manutençãode switch, firewall e roteador. Suporte técnico remoto e presencial para solução de problemas.</p>
+            <p class="arrow">↑</p>
+          </li>
+          <li>
+            <p class="date">2018 - 2019</p>
+            <p class="title">ONCLICK</p>
+            <p class="office">Estágio</p>
+            <p class="description">Experiência com desenvolvimento de sistemas ERP, regras de negócio, raciocínio lógico, banco de dados, linguagem SQL, Delphi e revisão de código.</p>
+            <p class="arrow">↑</p>
+          </li>
+          <li>
+            <p class="date">2017 - 2018</p>
+            <p class="title">Assistec Informática</p>
+            <p class="office">Estágio</p>
+            <p class="description">Experiência com hardware e instalação de softwares, formatação de computadores e otimização de sistema operacional. Experiência em receber e atender clientes.</p>
+          </li>
+        </ol>
       </section>
       <section id="projects">
-
+        <h1>Projetos</h1>
+        <a href="#" class="project"></a>
+        <p class="project-title">E-commerce</p>
+        <p class="project-description">Um e-commerce simples utilizando React</p>
+        <a href="#" class="project"></a>
+        <p class="project-title">Mini Games</p>
+        <p class="project-description">Alguns jogos utilizando React</p>
       </section>
       <section id="contact">
 
       </section>
     </main>
-    <footer>
-      <p>© 2023 Cristian Rossi. Feito com ♥ em Marília, Brasil.</p>
-    </footer>
+    <!-- <footer>
+      <p>© 2023 Cristian Rossi. Feito com ♥ em Marília (SP), Brasil.</p>
+    </footer> -->
 
     <!-- <h1 data-pt="Meu Portfólio" data-en="My Portfolio">Meu Portfólio</h1>
     <button id="btn-pt" onclick="changeLanguage('pt')">Português</button>
