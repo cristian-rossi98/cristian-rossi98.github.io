@@ -230,7 +230,7 @@ body {
 }
 
 #projects .project {
-  border: 2px solid var(--blue-5);
+  border: 2px solid #e98888;
   margin-top: 50px;
   width: 200px;
   height: 200px;
@@ -242,15 +242,19 @@ body {
   scale: 105%;
 }
 
+#projects img {
+  width: 100%;
+}
+
 #projects .project-title {
   font-weight: 700;
   font-size: 1.2em;
   margin-top: 10px;
 }
 
-#projects .project-description {
+#projects p {
   font-weight: 100;
-  font-size: .7em;
+  font-size: .8em;
   text-align: center;
   width: 200px;
 }
