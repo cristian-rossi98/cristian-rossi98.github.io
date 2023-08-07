@@ -78,10 +78,11 @@ body {
 #intro a {
   display: flex;
   padding: 0 5px;
+
+  transition: all .3s;
 }
 
 #intro a:hover {
-  transition: all .3s;
   scale: 120%;
 }
 
