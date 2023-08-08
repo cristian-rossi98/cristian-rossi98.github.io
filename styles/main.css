@@ -223,7 +223,7 @@ body {
   background-color: var(--blue-4);
   padding: 3px;
   border-radius: 15px;
-  font-size: .6em;
+  font-size: .8em;
   margin-bottom: 5px;
 
   box-shadow: 0 0 5px #91bbf261;
@@ -247,6 +247,7 @@ body {
   color: var(--blue-2);
   font-size: .6em;
   font-weight: 300;
+  margin: 5px 0;
 }
 
 #about .description {
