@@ -26,6 +26,34 @@
   #about, #projects, #contacts {
     padding: 0 15% 40px 15%;
   }
+
+  #about h2 {
+    font-size: 1em;
+  }
+
+  #about p {
+    font-size: .9em;
+  }
+
+  #about .date {
+    font-size: .8em;
+  }
+  
+  #about .title {
+    font-size: 1.2em;
+  }
+  
+  #about .office {
+    font-size: .8em;
+  }
+  
+  #about .description {
+    font-size: .9em;
+  }
+  
+  #about .arrow {
+    font-size: 1.5em;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -81,7 +109,7 @@
   }
 
   #about h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
   #about h3 {
@@ -89,16 +117,16 @@
   }
 
   #about p {
-    font-size: .9em;
+    font-size: 1.1em;
   }
 
   #about .date {
-    font-size: .8em;
+    font-size: 1em;
     padding: 5px;
   }
   
   #about .title {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   
   #about .office {
@@ -106,11 +134,11 @@
   }
   
   #about .description {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   
   #about .arrow {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-left: 35px;
   }
 
