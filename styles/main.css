@@ -29,17 +29,69 @@ body {
 
 /* ********** Intro Section ********** */
 #intro {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  
+  background-image: radial-gradient(circle , var(--blue-2), var(--blue-1));
+  /* height: 100vh; */
+}
+
+#intro .container-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
-  background-image: radial-gradient(circle , var(--blue-2), var(--blue-1));
+
   height: 100vh;
 }
 
 #intro .container {
   margin: auto;
   width: 325px;
+}
+
+#intro .container-lang {
+  position: absolute;
+  top: 30%;
+}
+
+#intro .container-lang p {
+  font-size: .8em;
+  margin-bottom: 5px;
+}
+
+#intro .container-lang .buttons {
+  display: flex;
+  
+}
+
+#intro .container-lang button {
+  border: none;
+  border-radius: 5px;
+
+  background-color: var(--blue-4);
+  color: white;
+
+  font-size: .7em;
+  padding: 10px;
+  width: 75px;
+  font-weight: 500;
+  margin-right: 5px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+
+  cursor: pointer;
+}
+
+#intro .container-lang button img {
+  width: 15px;
+}
+
+#intro .container-lang button:hover {
+  background-color: var(--blue-3);
 }
 
 #intro .name {

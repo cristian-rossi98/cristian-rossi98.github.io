@@ -18,7 +18,7 @@ const calcAge = () => {
     age--;
   }
 
-  document.querySelector('#age-count').innerHTML = `Tenho ${age} anos sou desenvolvedor com <br> mais de <strong>2 anos</strong> de experiência.`
+  document.querySelector('#age-count').innerHTML = `<p data-pt="Tenho ${age} anos sou desenvolvedor com mais de 2 anos de experiência." data-en="I'm ${age} years old and I'm a developer with more than 2 years of experience.">Tenho ${age} anos sou desenvolvedor com <br> mais de <strong>2 anos</strong> de experiência. </p>`
 }
 
 document.addEventListener("DOMContentLoaded", calcAge())

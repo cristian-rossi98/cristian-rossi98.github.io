@@ -32,6 +32,23 @@
   #intro .container {
     width: 700px;
   }
+
+  #intro .container-lang {
+    top: 25%;
+  }
+
+  #intro .container-lang p {
+    font-size: 1em;
+  }
+
+  #intro .container-lang button {
+    width: 125px;
+    font-size: 1em;
+  }
+
+  #intro .container-lang button img {
+    width: 25px;
+  }
   
   #intro .name {
     font-size: 1.4em;
