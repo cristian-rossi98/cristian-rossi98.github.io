@@ -195,6 +195,38 @@ body {
   line-height: 1.5em;
 }
 
+#about #skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#about #skills li {
+  background-color: var(--blue-2);
+  width: 47.5%;
+  height: 120px;
+  margin-bottom: 5%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about #skills li i {
+  padding-top: 15%;
+  margin-bottom: 20px;
+}
+
+#about #skills li h4 {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#about #skills li p {
+  font-size: .6em;
+}
+
 #about ul {
   column-count: 2; 
 }
@@ -268,8 +300,9 @@ body {
 
 #projects .content {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
+  justify-content: center;
 }
 
 #projects .project-container {

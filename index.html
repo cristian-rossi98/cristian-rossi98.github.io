@@ -16,7 +16,7 @@
     <section id="intro">
       <div class="container">
         <div class="container-lang">
-          <p data-pt="Idioma:" data-en="Language:">Idioma:</p>
+          <p data-pt="Idioma" data-en="Language">Idioma</p>
           <div class="buttons">
             <button id="btn-pt" onclick="changeLanguage('pt')">
               <img src="./img/pt-flag.png" alt="">
@@ -60,15 +60,29 @@
         websites para <strong>criar soluções eficientes</strong> e aprender continuamente e <strong>enfrentar
           desafios</strong> para <strong>impulsionar o sucesso</strong> da empresa no ambiente digital.</p>
       <h3 data-pt="Habilidades" data-en="Skills">Habilidades</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>Vue</li>
+      <ul id="skills">
+        <li>
+          <i class="fa-brands fa-react fa-2xl"></i>
+          <h4>React</h4>
+          <p>Redux, Tailwind</p>
+        </li>
+        <li>
+          <i class="fa-brands fa-git-alt fa-2xl"></i>
+          <h4>Git</h4>
+          <p>GitHub, GitLab</p>
+        </li>
+        <li>
+          <i class="fa-brands fa-searchengin fa-2xl"></i>
+          <h4>SEO</h4>
+        </li>
+        <li>
+          <i class="fa-solid fa-pen-nib fa-2xl"></i>
+          <h4>UI/UX</h4>
+        </li>
       </ul>
-      <h3 data-pt="Experiência e Educação" data-en="Experience and Education">Experiência e Educação</h3>
+      <p>Linguagens: HTML, CSS e JavaScript.</p>
+      <p>Outros frameworks: Vue.js e Angular.</p>
+      <h3 data-pt="Experiência" data-en="Experience">Experiência</h3>
       <ol>
         <li>
           <p class="date">2021 - 2023</p>
@@ -148,16 +162,18 @@
             <img src="./img/ecommerce.jpg" alt="e-commerce">
           </a>
           <p class="project-title">E-commerce</p>
-          <p class="project-description" data-pt="Um e-commerce simples utilizando React, Tailwind e uma API."
-            data-en="A simple e-commerce using React, Tailwind and an API.">Um e-commerce simples utilizando React,
-            Tailwind e uma API.
+          <p class="project-description"
+            data-pt="Um e-commerce simples utilizando React, Tailwind e uma API JSON Server."
+            data-en="A simple e-commerce using React, Tailwind and a JSON Server API.">Um e-commerce simples utilizando
+            React,
+            Tailwind e uma API JSON Server.
           </p>
         </div>
-        <div class="project-container">
+        <!-- <div class="project-container">
           <a href="#" class="project"></a>
           <p class="project-title">Mini Games</p>
           <p class="project-description">Alguns jogos utilizando React</p>
-        </div>
+        </div> -->
       </div>
     </section>
     <section id="contacts">
@@ -167,7 +183,7 @@
           <img class="logo" src="img/whatsapp.svg" alt="">
           <div>
             <h2 class="title nav" data-pt="Celular" data-en="Phone">Celular</h2>
-            <p class="description content">+55 1499797-3716</p>
+            <p class="description content">+55 14 99797-3716</p>
           </div>
         </li>
         <li>
@@ -193,5 +209,6 @@
   </footer>
   <script src="main.js"></script>
 </body>
+<script src="https://kit.fontawesome.com/201dc68c4c.js" crossorigin="anonymous"></script>
 
 </html>
