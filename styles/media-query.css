@@ -35,6 +35,27 @@
     font-size: .9em;
   }
 
+  #about #skills li {
+    width: 22.5%;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  #about #skills li i {
+    padding-top: 15%;
+    margin-bottom: 25px;
+    font-size: 2.5em;
+  }
+  
+  #about #skills li h4 {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  
+  #about #skills li p {
+    font-size: .8em;
+  }
+
   #about .date {
     font-size: 1em;
   }
@@ -144,7 +165,7 @@
 
   #about .date {
     font-size: 1em;
-    padding: 5px;
+    padding: 5px 15px;
   }
   
   #about .title {
