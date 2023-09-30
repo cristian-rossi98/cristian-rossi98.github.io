@@ -332,17 +332,30 @@ body {
   background-color: var(--blue-1);
 }
 
-#projects .content {
+#projects .projects-list {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+
+  margin-top: 25px;
 }
 
-#projects .project-container {
+#projects .project-item {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+
+  padding: 25px;
+  background-color: rgba(2, 48, 89, 0.1);
+  border-radius: 25px;
+}
+
+#projects .project-info {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 15px;
 }
 
 #projects h1 {
@@ -353,11 +366,7 @@ body {
   color: var(--blue-3);
 }
 
-#projects .project {
-  margin-top: 50px;
-  width: 120px;
-  height: 120px;
-
+#projects .project-img {
   transition: all 0.3s ease;
 }
 
@@ -366,20 +375,32 @@ body {
 }
 
 #projects img {
-  width: 100%;
+  width: 100px;
+  height: 100px;
 }
 
 #projects .project-title {
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1em;
+}
+
+#projects .project-description {
+  font-weight: 100;
+  font-size: 0.7em;
+}
+
+#projects .tech-list {
+  columns: 2;
+  list-style-type: none;
+
+  font-size: 0.7em;
+  font-weight: 100;
+
   margin-top: 10px;
 }
 
-#projects p {
-  font-weight: 100;
-  font-size: 0.8em;
-  text-align: center;
-  width: 200px;
+#projects .tech-list li::before {
+  content: "✓ ";
 }
 
 /* ********** Contacts Section ********** */
