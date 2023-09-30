@@ -2,28 +2,31 @@
   #intro .container {
     width: 550px;
   }
-  
+
   #intro .name {
     font-size: 1.2em;
   }
-  
+
   #intro .office {
     font-size: 4.5em;
   }
-  
+
   #intro img {
     width: 30px;
   }
-  
+
   #intro .linkedin {
     width: 32px;
   }
-  
+
   #intro .description {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 
-  #about, #projects, #contacts {
+  /* ********** About Section ********** */
+  #about,
+  #projects,
+  #contacts {
     padding: 0 15% 40px 15%;
   }
 
@@ -32,7 +35,7 @@
   }
 
   #about p {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 
   #about #skills li {
@@ -40,40 +43,58 @@
     height: 150px;
     margin-bottom: 10px;
   }
-  
+
   #about #skills li i {
     padding-top: 15%;
     margin-bottom: 25px;
     font-size: 2.5em;
   }
-  
+
   #about #skills li h4 {
     font-size: 1.2em;
     font-weight: 500;
   }
-  
+
   #about #skills li p {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 
   #about .date {
     font-size: 1em;
   }
-  
+
   #about .title {
     font-size: 1.2em;
   }
-  
+
   #about .office {
-    font-size: .8em;
+    font-size: 0.8em;
   }
-  
+
   #about .description {
-    font-size: .9em;
+    font-size: 0.9em;
   }
-  
+
   #about .arrow {
     font-size: 1.5em;
+  }
+
+  /* ********** Projects Section ********** */
+  #projects img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #projects .project-title {
+    font-size: 1.2em;
+  }
+
+  #projects .project-description {
+    font-size: 0.9em;
+  }
+
+  #projects .tech-list {
+    font-size: 0.9em;
   }
 }
 
@@ -98,34 +119,37 @@
   #intro .container-lang button img {
     width: 25px;
   }
-  
+
   #intro .name {
     font-size: 1.4em;
   }
-  
+
   #intro .office {
     font-size: 5.5em;
-  
   }
-  
+
   #intro img {
     width: 35px;
   }
-  
+
   #intro .linkedin {
     width: 37px;
   }
-  
+
   #intro .description {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 
   /* ********** About Section ********** */
-  #about, #projects, #contacts {
+  #about,
+  #projects,
+  #contacts {
     padding: 0 30% 40px 30%;
   }
 
-  #about h1, #projects h1, #contacts h1 {
+  #about h1,
+  #projects h1,
+  #contacts h1 {
     font-size: 3em;
   }
 
@@ -146,58 +170,60 @@
     height: 150px;
     margin-bottom: 10px;
   }
-  
+
   #about #skills li i {
     padding-top: 15%;
     margin-bottom: 25px;
     font-size: 2.5em;
   }
-  
+
   #about #skills li h4 {
     font-size: 1.2em;
     font-weight: 500;
   }
-  
+
   #about #skills li p {
-    font-size: .8em;
+    font-size: 0.8em;
   }
-  
 
   #about .date {
     font-size: 1em;
     padding: 5px 15px;
   }
-  
+
   #about .title {
     font-size: 1.4em;
   }
-  
+
   #about .office {
-    font-size: .8em;
+    font-size: 0.8em;
   }
-  
+
   #about .description {
     font-size: 1.2em;
   }
-  
+
   #about .arrow {
     font-size: 1.5em;
     margin-left: 35px;
   }
 
   /* ********** Projects Section ********** */
-  #projects .content {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start; */
+  #projects img {
+    width: 150px;
+    height: 150px;
   }
-  
-  #projects .project-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+  #projects .project-title {
+    font-size: 1.5em;
+  }
+
+  #projects .project-description {
+    font-size: 1em;
+  }
+
+  #projects .tech-list {
+    font-size: 1em;
   }
 
   /* ********** Contacts Section ********** */
@@ -208,6 +234,6 @@
   }
 
   footer {
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
