@@ -272,8 +272,13 @@ body {
   align-items: center;
 }
 
-.about-linkedin {
+#about .about-linkedin {
   width: 25px;
+  transition: all 0.3s;
+}
+
+#about .about-linkedin:hover {
+  scale: 110%;
 }
 
 #about .date {
